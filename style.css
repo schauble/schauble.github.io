@@ -13,28 +13,95 @@ header {
 }
 
 section {
-	height: 100%;	
+	height: 100%;
+	width: 100%;	
 	}
 
 article {
-	height: 100%;	
+	height: 100%;
+	width: 100%;	
 }
 
 #fsn {
 	margin: 0 auto;
 	text-align: center;
 	height: 100%;	
+	min-height: 100%;
+	width: 100%;
+	min-width: 100%;
 }
 
 .fsn-body {
 	position: relative;
 	height: 100%;	
+	min-height: 100%;		
+	width: 100%;
+	min-width: 100%;
+}
+
+.fsn-body, section.fsn-section, .fsn-page-scroll, .jspContainer, .jspPane, .fsn-page-body, #container {
+	height: 100%;
+	min-height: 100%;	
+	width: 100%;
+	min-width: 100%;
+}
+
+
+.fsn-body, .fsn-section-wrap, .jspContainer, .jspPane, .fsn-page-body {
+	height: 100%;
+	width: 100%;
+	overflow: visible;	
+}
+
+.jspVerticalBar {
+	display: none;	
 }
 
 h1 {
-	font-family: 'Chronicle Display A', 'Chronicle Display B'; font-weight: 200; font-style: normal;
-	font-size: 72px;
-	line-height: 80px;	
+    color: #fff;
+    font-size: 95px;
+    line-height: 100px;
+    margin: 0;
+    padding: 0 0 15px;
+    font-family: 'Chronicle Display A', 'Chronicle Display B';
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: -1px;
+    text-rendering: optimizeLegibility;
+}
+h2 {
+    color: #fc4f53;
+    font-size: 14px;
+    letter-spacing: 7px;
+    margin: 0;
+    padding: 20px;
+    font-family: 'Gotham SSm A', 'Gotham SSm B';
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+}
+h3 {
+    color: #fff;
+    font-size: 10px;
+    line-height: 15px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gotham SSm A', 'Gotham SSm B';
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+}
+h4 {
+    color: #000;
+    font-size: 18px;
+    margin: 0;
+    padding: 0 0 15px;
+    font-family: 'Gotham SSm A', 'Gotham SSm B';
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
 }
 
 .mainbody {
@@ -55,6 +122,48 @@ h1 {
 .mainbody div {
 	display: table-cell;
  	vertical-align: middle	
+}
+
+#masthead {
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    z-index: 1000;
+}
+
+#masthead img {
+    width: 250px;
+}
+
+#sitenav {
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    z-index: 1000;
+}
+
+#sitenav {
+    font-family: 'Gotham SSm A', 'Gotham SSm B';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000;
+    text-align: right;
+}
+
+a.navitem:link, a.navitem:visited {
+    padding: 0 10px 0 0;
+    text-decoration: none;
+    color: #fff;
+}
+a.navitem:hover {
+    padding: 0 10px 0 0;
+    text-decoration: line-through;
+    color: #fff;
+}
+a.navitem:last-child {
+    padding: 0 0 0 10px;
 }
 
 #intro {
@@ -83,19 +192,37 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4dabd', end
 	
 }
 
+#container {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.msg {
+    width: 1000px;
+    height: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -500px;
+}
+.keyboard {
+    width: 300px;
+    height: 100px;
+    position: fixed;
+    background-image: url(../images/keyboard.svg);
+    background-repeat: no-repeat;
+    bottom: 50px;
+    left: 50%;
+    margin-left: -150px;
+}
+
 #p101 img {
 	vertical-align: middle;	
 }
 
-.fsn-body, .fsn-section-wrap, .jspContainer, .jspPane, .fsn-page-body {
-	height: 100%;
-	width: 100%;
-	overflow: visible;	
-}
-
-.jspVerticalBar {
-	display: none;	
-}
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
 

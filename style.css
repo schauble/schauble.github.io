@@ -31,7 +31,11 @@ article {
 	height: 100%;	
 }
 
-
+h1 {
+	font-family: 'Chronicle Display A', 'Chronicle Display B'; font-weight: 200; font-style: normal;
+	font-size: 72px;
+	line-height: 80px;	
+}
 
 .mainbody {
 	width: 100%;

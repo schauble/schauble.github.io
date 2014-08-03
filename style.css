@@ -169,6 +169,8 @@ a.navitem:last-child {
 #intro {
 	width: 100%;
 	height: 100%;
+	outline: 10px solid #FFFFFF;
+	outline-offset: -10pxpx;
 	background: #f4dabd; /* Old browsers */
 
 /* IE9 SVG, needs conditional override of 'filter' to 'none' */

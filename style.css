@@ -132,7 +132,7 @@ h4 {
 }
 
 #masthead img {
-    width: 250px;
+    width: 200px;
 }
 
 #sitenav {
@@ -210,6 +210,51 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4dabd', end
     margin-top: -120px;
     margin-left: -450px;
 }
+.infoblock {
+    width: 300px;
+}
+.notes {
+    font-size: 13px;
+}
+.project {
+    font-family: 'Chronicle Display A', 'Chronicle Display B';
+    font-weight: 700;
+    font-style: normal;
+    text-align: left;
+    font-size: 86px;
+    line-height: 86px;
+    padding-bottom: 30px;
+    text-rendering: optimizeLegibility;
+}
+.longdash {
+    width: 80px;
+    height: 4px;
+    margin-bottom: 30px;
+    background-color: #000;
+}
+.notes {
+    font-family: 'Gotham SSm A', 'Gotham SSm B';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: left;
+}
+.infoblock {
+    width: 440px;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
+.infoblock-white {
+    width: 440px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    margin-top: -100px;
+    left: 50px;
+    color: #fff;
+}
 .keyboard {
     width: 300px;
     height: 100px;
@@ -219,6 +264,166 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4dabd', end
     bottom: 50px;
     left: 50%;
     margin-left: -150px;
+}
+
+.projsub {
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+.fullwidth {
+    width: 100%;
+    overflow: hidden;
+}
+.introshot {
+    position: relative;
+    left: 10%;
+    height: 100%;
+	}
+.detailshot {
+    margin: 0 auto;
+    height: 100%;
+    overflow: hidden;
+}
+
+.slidetitle {
+    width: 300px;
+    height: 20px;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    font-family: 'Gotham SSm A', 'Gotham SSm B';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 12px;
+    text-align: left;
+    text-transform: uppercase;
+}
+.slidetitle-white {
+    width: 300px;
+    height: 20px;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    font-family: 'Gotham SSm A', 'Gotham SSm B';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 12px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #fff;
+}
+.projectinfo {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    width: 200px;
+    height: 50px;
+    text-align: right;
+}
+.projectinfo-white {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    width: 200px;
+    height: 50px;
+    text-align: right;
+    color: #fff;
+}
+.project {
+    font-size: 56px;
+    line-height: 56px;
+}
+.proj {
+    font-family: 'Gotham SSm A', 'Gotham SSm B';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 10px;
+    line-height: 50px;
+    padding: 0 2px 0 0;
+    vertical-align: bottom;
+}
+.projectnumber {
+    font-family: 'Gotham SSm A', 'Gotham SSm B';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 50px;
+    padding: 0 5px 0 0;
+    vertical-align: bottom;
+}
+.slash {
+    font-family: 'Chronicle Display A', 'Chronicle Display B';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 55px;
+    padding: 0 5px 0 0;
+    vertical-align: bottom;
+}
+.detailnumber {
+    font-family: 'Chronicle Display A', 'Chronicle Display B';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 50px;
+    padding: 0 5px 0 0;
+    vertical-align: bottom;
+}
+.of {
+    font-family: 'Chronicle Display A', 'Chronicle Display B';
+    font-weight: 600;
+    font-style: italic;
+    font-size: 13px;
+    line-height: 50px;
+    padding: 0 6px 0 0;
+    vertical-align: bottom;
+}
+.copyblock {
+    width: 960px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px;
+    margin-left: -480px;
+}
+.workheader {
+    font-family: 'Chronicle Display A', 'Chronicle Display B';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    width: 50%;
+    color: #777;
+    border-top: 4px double #fff;
+    border-bottom: 4px double #fff;
+    padding: 10px 0;
+    margin: 0 auto;
+}
+.col01 {
+    width: 450px;
+    margin-right: 60px;
+    height: 430px;
+    float: left;
+    margin-top: 60px;
+}
+.col02 {
+    width: 450px;
+    height: 430px;
+    float: right;
+    margin-top: 60px;
+}
+.client {
+    font-family: 'Gotham SSm A', 'Gotham SSm B';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 12px;
+    color: #000;
+    padding: 0 0 5px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
 }
 
 #p101 img {
